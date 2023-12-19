@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="/action_page.php">
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Name here" />
+
+      <label for="dog">dog</label>
+      <input id="dog" type="checkbox" required />
+      <input type="color" />
+      <input type="date" />
+      <input type="datetime-local" />
+      <input type="email" />
+      <input type="file" />
+      <!-- look this up!  -->
+      <input type="hidden" />
+
+      <input type="month" />
+      <input type="number" />
+      <input type="password" required />
+      <br />
+
+      <label for="red">Red</label>
+      <input id="red" type="radio" name="fav-color" value="red" />
+      <label for="green">Green</label>
+      <input id="green" type="radio" name="fav-color" value="green" />
+      <label for="blue">Blue</label>
+      <input id="blue" type="radio" name="fav-color" value="blue" />
+
+      <label for="rating">Rate from 1-10</label>
+      <input id="rating" type="range" min="0" max="10" value="10" />
+
+      <input type="tel" maxlength="12" minlength="6" required />
+
+      <input type="time" />
+      <input type="url" />
+      <input type="week" />
+      <br />
+
+      <label for="cars">Choose a car</label>
+      <select name="cars" id="cars">
+        <option value="ferrari">Ferrari</option>
+        <option value="tesla">Tesla</option>
+        <option value="volvo">Volvo</option>
+      </select>
+      <select name="cars" id="cars">
+        <option value="ferrari">Ferrari</option>
+        <option value="tesla">Tesla</option>
+        <option value="volvo">Volvo</option>
+      </select>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
